@@ -154,6 +154,18 @@ max 有一个 key 参数，指定如何进行值得比较。
                     return None
         ...:     return max(lst, key=lambda v: lst.count(v)) # v 在 lst 的出现次数作为大小比较的依据
     
+lambda表达式：
+其实lambda是一个匿名函数，我们通常叫它lambda表达式，lambda存在意义就是对简单函数的简洁表示。
+比如我们想实现这样的函数：
+def func(arg):
+    return arg + 1
+    
+为了使代码更简洁，lambda登场，把上面的函数变形成： 
+lambda arg : arg + 1
+所以，lambda  a : b , 实际上就是：lambda是一个输入值为a，返回值为b的函数
+
+
+
 
 调用 mode：
 
@@ -438,7 +450,7 @@ random 模块，uniform(a,b) 生成 [a,b) 内的一个随机数。
 
 **动画对应短视频下载链接：**
 
-> <https://pan.baidu.com/s/1MrnrXEnl54XDYYwkZbSqSA>
+> <>
 >
 > 提取码：634k
 
