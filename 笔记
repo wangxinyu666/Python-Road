@@ -1,0 +1,28 @@
+list中添加元素  append insert
+     移除元素   pop  remove
+     
+a.copy() 只能完成第一层的深拷贝    b = deepcopy(a)  全部深拷贝
+
+
+a = list(range(1,20,3))
+print(a) # [1, 4, 7, 10, 13, 16, 19]
+使用 a[:-1] 获取除最后一个元素的切片
+使用 a[::3] 生成索引 [0,len(a)) 步长为 3 的切片 [1,10,19]；
+使用 a[::-3] 生成逆向索引 [len(a),0) 步长为 3 的切片 [19,10,1]
+
+lst[::-1]  可直接实现列表反转
+
+lambda表达式：
+其实lambda是一个匿名函数，我们通常叫它lambda表达式，lambda存在意义就是对简单函数的简洁表示。
+
+比如我们想实现这样的函数：
+
+def func(arg):
+    return arg + 1
+    
+为了使代码更简洁，lambda登场，把上面的函数变形成：
+ 
+lambda arg : arg + 1
+所以，lambda  a : b , 实际上就是：lambda是一个输入值为a，返回值为b的函数
+
+f-string用大括号 {} 表示被替换字段，其中直接填入替换内容
