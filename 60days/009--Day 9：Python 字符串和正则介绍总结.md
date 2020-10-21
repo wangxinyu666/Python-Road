@@ -52,8 +52,7 @@ print str.join( seq );
 
 输出结果，如下图：
 
-![image-20200219223256071](https://images.gitbook.cn/0c756540-53f3-11ea-
-ab27-11d05933a5c6)
+![image-20200219223256071](https://images.gitbook.cn/0c756540-53f3-11ea-ab27-11d05933a5c6)
 
 #### **join 串联字符串**
 
