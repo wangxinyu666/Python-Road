@@ -9,7 +9,11 @@
 
 #### **反转字符串**
 
-    
+
+  str = "-";
+  seq = ("a", "b", "c"); # 字符串序列
+  print str.join( seq );
+  #a-b-c
     
     In [1]: s = "python"
     
