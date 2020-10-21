@@ -344,8 +344,7 @@ bb62-297df070c489)
 
 最终正则表达式为：`r'\d+\.?\d*'`，正则分解图：
 
-![image-20200220121007756](https://images.gitbook.cn/a18815b0-53f3-11ea-
-ab27-11d05933a5c6)
+![image-20200220121007756](https://images.gitbook.cn/a18815b0-53f3-11ea-ab27-11d05933a5c6)
 
     
     
@@ -425,8 +424,7 @@ re.I 是方法的可选参数，表示忽略大小写。
 
 正则字符串为：`[,\s;|]+`，`\s` 匹配空白字符，正则分解图，如下：
 
-![image-20200220201747943](https://images.gitbook.cn/cd6925c0-53f3-11ea-
-ab27-11d05933a5c6)
+![image-20200220201747943](https://images.gitbook.cn/cd6925c0-53f3-11ea-ab27-11d05933a5c6)
 
     
     
@@ -461,8 +459,7 @@ ab27-11d05933a5c6)
 正则表达式为：`^[1-9]\d*\.\d*|0\.\d*[1-9]\d*$`，字符 `a|b` 表示 `a` 串匹配失败后，才执行 `b`
 串，正则分解图见下：
 
-![image-20200220123743586](https://images.gitbook.cn/e5bb30f0-53f3-11ea-
-abf1-59cee134db3d)
+![image-20200220123743586](https://images.gitbook.cn/e5bb30f0-53f3-11ea-abf1-59cee134db3d)
 
 首先，生成预编译对象 rec：
 
@@ -528,8 +525,7 @@ abf1-59cee134db3d)
   * `(.*)` 表示捕获任意多个字符，尽可能多地匹配字符，也被称为`贪心捕获`
   * `(.*)` 的正则分解图如下所示，`.` 表示匹配除换行符外的任意字符。 
 
-![image-20200220213002588](https://images.gitbook.cn/fc5b6d70-53f3-11ea-
-ab27-11d05933a5c6)
+![image-20200220213002588](https://images.gitbook.cn/fc5b6d70-53f3-11ea-ab27-11d05933a5c6)
 
 #### 非贪心捕获
 
@@ -554,8 +550,7 @@ ab27-11d05933a5c6)
 
 这种匹配模式串 `(.*?)`，被称为非贪心捕获。正则图中，红色虚线表示非贪心匹配。
 
-![image-20200220214643717](https://images.gitbook.cn/0f1484b0-53f4-11ea-
-abf1-59cee134db3d)
+![image-20200220214643717](https://images.gitbook.cn/0f1484b0-53f4-11ea-abf1-59cee134db3d)
 
 通过上述例子和分析，体会贪心和非贪心匹配的不同之处。
 
