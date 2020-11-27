@@ -115,22 +115,22 @@ read 函数一次读取整个文件，readlines 函数按行一次读取整个�
 
     
     
-    In [38]: from collections import defaultdict
-        ...: import re
+    In [38]: from collections import defaultdict           
+        ...: import re              
         ...:
-        ...: rec = re.compile('\s+')
-        ...: dd = defaultdict(int)
-        ...: with open('a.txt','r+') as f:
-                for line in f:
-        ...:        clean_line = line.strip()
-        ...:        if clean_line:
-        ...:           words = rec.split(clean_line)
-        ...:           for word in words:
-        ...:               dd[word] += 1
-        ...: dd = sorted(dd.items(),key=lambda x: x[1],reverse=True)
-        ...: print('---print stat---')
-        ...: print(dd)
-        ...: print('---words stat done---')
+        ...: rec = re.compile('\s+')              
+        ...: dd = defaultdict(int)              
+        ...: with open('a.txt','r+') as f:               
+                for line in f:                
+        ...:        clean_line = line.strip()              
+        ...:        if clean_line:            
+        ...:           words = rec.split(clean_line)             
+        ...:           for word in words:          
+        ...:               dd[word] += 1           
+        ...: dd = sorted(dd.items(),key=lambda x: x[1],reverse=True)              
+        ...: print('---print stat---')          
+        ...: print(dd)          
+        ...: print('---words stat done---')          
     
 
 程序运行结果：
